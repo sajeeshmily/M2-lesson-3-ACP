@@ -1,0 +1,117 @@
+/* Universal Selector */
+* {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Page Styling */
+body {
+    margin: 0;
+    background-color: #fff8e7;
+    color: #402515;
+}
+
+/* Restaurant Header */
+.restaurant-header {
+    background-color: #542b16;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Restaurant Name */
+h1 {
+    font-size: 38px;
+    font-weight: bold;
+
+    /* Text Shadow */
+    text-shadow: 3px 3px orange;
+}
+
+/* Tagline */
+.tagline {
+    font-size: 18px;
+    font-style: italic;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+/* Special Offer Banner */
+.offer-banner {
+    background-color: #ffcc33;
+    color: #8b0000;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+
+    /* Transform */
+    transform: rotate(-2deg);
+    margin: 20px auto;
+    width: 85%;
+
+    /* Box Shadow */
+    box-shadow: 4px 4px 8px gray;
+}
+
+/* Menu Container */
+.menu-container {
+    width: 75%;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+
+    box-shadow: 0 0 15px #d6b88c;
+}
+
+/* Main Menu Heading */
+.menu-title {
+    text-align: center;
+    font-size: 30px;
+    color: #a0522d;
+
+    /* Text Decoration */
+    text-decoration: underline;
+}
+
+/* Menu Sections */
+.menu-section {
+    margin: 25px 0;
+    padding: 15px;
+    background-color: #fff3df;
+    border-left: 5px solid #b87333;
+}
+
+/* Section Headings */
+.menu-section h2 {
+    color: #8b4513;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+/* Dish Names */
+.dish h3 {
+    color: #a0522d;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Dish Descriptions */
+.dish p {
+    color: #555555;
+    font-size: 15px;
+
+    /* Text Indent */
+    text-indent: 30px;
+}
+
+/* Footer */
+footer {
+    background-color: #542b16;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
